@@ -1,0 +1,107 @@
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
+}
+
+.download-btn{
+  position: relative;
+  top: 40px;
+  left: 10%;
+  outline: none;
+  border: none;
+  color: #fff;
+  display: flex;
+  cursor: pointer;
+  padding: 16px 25px;
+  border-radius: 6px;
+  align-items: center;
+  white-space: nowrap;
+  background: #36c05d;
+  transition: all 0.2s ease;
+}
+
+.download-btn.timer{
+  color: white;
+  background: none;
+  transition: none;
+  font-size: 1.6rem;
+  pointer-events: none;
+}
+.download-btn.timer b{
+  color: #4A98F7;
+  padding: 0 8px;
+}
+.download-btn .icon{
+  font-size: 2rem;
+}
+.download-btn .text{
+  font-size: 1.5rem;
+  padding-left: 10px;
+}
+
+.container{
+  background-color: rgb(51, 48, 48);
+  width: 600px;
+  height: 280px;
+  border-radius: 15px;
+}
+
+.zip-img{
+  width: 95px;
+  position: relative;
+  left: 50px;
+  top: 40px;
+}
+
+.description{
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  position: relative;
+  bottom: 50px;
+  right: 70px;
+}
+
+.inf-card{
+  position: relative;
+  left: 155px;
+  bottom: 105px;
+  color: white;
+  text-decoration: none;
+  padding: 13px 25px;
+  border-radius: 6px;
+  background: #4A98F7;
+}
+
+.inf-card:hover{
+  background: #2382f6;
+  transition: 1s;
+}
+
+.tuto-video{
+  position: relative;
+  left: 290px;
+  bottom: 129px;
+  color: white;
+  text-decoration: none;
+  padding: 13px 25px;
+  border-radius: 6px;
+  background: #4A98F7;
+}
+
+.tuto-video:hover{
+  background: #2382f6;
+  transition: 1s;
+}

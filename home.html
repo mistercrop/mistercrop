@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="twinx logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <title>Document</title>
+</head>
+<body>
+
+  <!--cabeçalho do site-->
+    <header>
+        <a href="#"><img src="twinx game.png" alt="logo site" class="Logo"></a>
+        <ul>
+            <a href="dowload.html" class="links">DOWLOADS</a>
+            <a href="media.html" class="links">MEDIA LINKS</a>
+            <a href="email.php" class="links">PREMIUM</a>
+        </ul>
+
+        <form>
+            <input type="search" name="search" id="search" placeholder="Search..." class="search">
+            <input type="submit" name="submit" class="submit">
+        </form>
+
+        <a href="#" class="sign">Sign up</a>
+        <a href="#" class="join">Join now</a>
+
+        <!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cookie Constent Box | CodingNepal</title>
+  <link rel="stylesheet" href="cookie.css">
+</head>
+<body>
+  <div class="wrapper">
+    <img src="cookie.png" alt="">
+    <div class="content">
+        <h2>Cookies Consent</h2>
+        <p>This website use cookies to ensure you get the best experience on our website.</p>
+      <div class="buttons">
+        <button class="item">I understand</button>
+        <a href="#" class="item">Learn more</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const cookieBox = document.querySelector(".wrapper"),
+    acceptBtn = cookieBox.querySelector("button");
+
+    acceptBtn.onclick = ()=>{
+      //setting cookie for 1 month, after one month it'll be expired automatically
+      document.cookie = "CookieBy=CodingNepal; max-age="+60*60*24*30;
+      if(document.cookie){ //if cookie is set
+        cookieBox.classList.add("hide"); //hide cookie box
+      }else{ //if cookie not set then alert an error
+        alert("Cookie can't be set! Please unblock this site from the cookie setting of your browser.");
+      }
+    }
+    let checkCookie = document.cookie.indexOf("CookieBy=CodingNepal"); //checking our cookie
+    //if cookie is set then hide the cookie box else show it
+    checkCookie != -1 ? cookieBox.classList.add("hide") : cookieBox.classList.remove("hide");
+  </script>
+
+</body>
+</html>
+    </header>
+
+   
+    
+    <!--main.js-->
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script src="main.js"></script>
+</body>
+</html>
